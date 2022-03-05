@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+body{
+    background-color:rgb(30, 37, 37);
+}
+h1{
+    background-color: black;
+    font-family:'Courier New', Courier, monospace, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+    word-spacing:1em;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    line-height: 3.75em;
+}
+#rgbValue{
+    font-size: 64px;
+}
+#container1{
+    background-color: rgb(182, 179, 179);
+    height: 35px;
+    text-align: center;
+}
+button{
+     border-radius:50%;
+    background: gray;
+    text-transform: uppercase;
+    height: 100%;
+    font-size: small;
+}
+button:hover{
+    color: rgb(144, 151, 151);
+    background-color: rgb(162, 197, 79);
+}
+#status{
+    display: inline-block;
+    width: 25%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: smaller;
+}
+#container2{
+    margin: 15px auto;
+    max-width: 500px;
+}
+.box{
+    width: 25%;
+	background:#fff;
+	padding-bottom: 25%;
+	float: left;
+	margin: 1.6%;
+	border-radius: 20px;
+    transition: background 0.3s;
+}
